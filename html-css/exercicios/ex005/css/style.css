@@ -1,0 +1,33 @@
+@charset 'UTF-8';
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.caixa {
+background: red;
+height: 120px;
+width: 120px;
+transition: 1s;
+}
+
+.caixa:hover {
+    background-color: yellow;
+}
+
+a:visited {
+    color: darkorange;
+}
+
+a:link {
+    color: darkolivegreen;
+}
+
+ul li:nth-child(odd){
+    background: darkslategray;
+}
+ul li:nth-child(even){
+    background: darkviolet;
+}
